@@ -123,6 +123,33 @@ OperatingSystems/fast:
 	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/build
 .PHONY : OperatingSystems/fast
 
+test.o: test.c.o
+
+.PHONY : test.o
+
+# target to build an object file
+test.c.o:
+	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/test.c.o
+.PHONY : test.c.o
+
+test.i: test.c.i
+
+.PHONY : test.i
+
+# target to preprocess a source file
+test.c.i:
+	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/test.c.i
+.PHONY : test.c.i
+
+test.s: test.c.s
+
+.PHONY : test.s
+
+# target to generate assembly for a file
+test.c.s:
+	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/test.c.s
+.PHONY : test.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... OperatingSystems"
 	@echo "... edit_cache"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

@@ -101,6 +101,9 @@
 		<Unit filename="/cygdrive/c/Users/Usuario/Desktop/OperatingSystems/README.md">
 			<Option target="OperatingSystems"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/Usuario/Desktop/OperatingSystems/test.c">
+			<Option target="OperatingSystems"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Usuario/Desktop/OperatingSystems/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

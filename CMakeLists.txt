@@ -10,4 +10,4 @@ add_executable(OperatingSystems
         .idea/OperatingSystems.iml
         .idea/vcs.xml
         .idea/workspace.xml
-        README.md)
+        README.md test.c)

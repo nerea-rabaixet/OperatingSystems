@@ -74,12 +74,12 @@ clean: CMakeFiles/OperatingSystems.dir/clean
 CMakeFiles/OperatingSystems.dir/all:
 	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/depend
 	$(MAKE) -f CMakeFiles/OperatingSystems.dir/build.make CMakeFiles/OperatingSystems.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Usuario/Desktop/OperatingSystems/cmake-build-debug/CMakeFiles --progress-num= "Built target OperatingSystems"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Usuario/Desktop/OperatingSystems/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target OperatingSystems"
 .PHONY : CMakeFiles/OperatingSystems.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/OperatingSystems.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Usuario/Desktop/OperatingSystems/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Usuario/Desktop/OperatingSystems/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/OperatingSystems.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Usuario/Desktop/OperatingSystems/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/OperatingSystems.dir/rule
