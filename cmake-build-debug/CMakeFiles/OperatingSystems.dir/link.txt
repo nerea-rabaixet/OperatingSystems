@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -Wl,--enable-auto-import CMakeFiles/OperatingSystems.dir/test.c.o  -o OperatingSystems.exe -Wl,--out-implib,libOperatingSystems.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
